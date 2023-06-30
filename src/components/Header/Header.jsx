@@ -5,7 +5,6 @@ import {
   UserOutlined,
   ShareAltOutlined,
 } from "@ant-design/icons";
-import logo from "../Images/logo.svg";
 
 const Header = () => {
   return (
