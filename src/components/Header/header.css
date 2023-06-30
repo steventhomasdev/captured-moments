@@ -18,9 +18,9 @@
 .header-container::before{
     content: "";
     position: absolute;
-    top: -42px;
-    left: -37px;
-    width: 36.1875rem;
+    top: 1px;
+    left: -5px;
+    width: 14.1875rem;
     height: 12rem;
     background-repeat: no-repeat;
     background: url('../Images/lavender3.png') no-repeat;
