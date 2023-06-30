@@ -10,7 +10,7 @@
     width: 100%;
     z-index: 999;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     border-bottom: .0625rem solid #8332ac;
 }
