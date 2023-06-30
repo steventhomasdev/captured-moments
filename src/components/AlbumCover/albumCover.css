@@ -43,3 +43,23 @@
 .banner-with-text .text .date{
     font-size: 20px;
 }
+
+@media screen and ( max-width: 768px) {
+    .banner-with-text{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .banner-with-text > div{
+        padding: 0;
+    }
+
+    .banner-with-text > .text{
+        padding: 2rem 0;
+    }
+
+    .banner-with-text > .image{
+        padding: 0 0rem;
+        padding-top: 8rem;
+    }
+}

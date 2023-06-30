@@ -45,3 +45,13 @@
     position: absolute;
     right: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .header-container .header-icons{
+        display: none;
+    }
+
+    .header-container{
+        justify-content: center;
+    }
+}
