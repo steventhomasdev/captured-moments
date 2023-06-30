@@ -15,7 +15,7 @@
     border-bottom: .0625rem solid #8332ac;
 }
 
-.header-container::before{
+/* .header-container::before{
     content: "";
     position: absolute;
     top: -28px;
@@ -26,7 +26,7 @@
     background: url('../Images/lavender4.png') no-repeat;
     background-size: contain;
     transform: rotate(92deg);
-}
+} */
 
 .header-container .logo{
     font-size: 28px;
