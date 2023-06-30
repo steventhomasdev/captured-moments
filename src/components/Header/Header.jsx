@@ -1,10 +1,6 @@
 import React from "react";
 import "./header.css";
-import {
-  HomeOutlined,
-  UserOutlined,
-  ShareAltOutlined,
-} from "@ant-design/icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Header = () => {
   return (
@@ -41,9 +37,15 @@ const Header = () => {
         </svg>
       </div>
       <div className="header-icons">
-        <HomeOutlined />
-        <UserOutlined />
-        <ShareAltOutlined />
+        <FontAwesomeIcon
+          icon="fa-solid fa-house"
+          style={{ color: "#6c3c93" }}
+        />{" "}
+        <FontAwesomeIcon icon="fa-solid fa-user" style={{ color: "#6c3c93" }} />
+        <FontAwesomeIcon
+          icon="fa-solid fa-share-nodes"
+          style={{ color: "#6c3c93" }}
+        />
       </div>
     </header>
   );
