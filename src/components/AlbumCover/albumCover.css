@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.banner-with-text{
+    display: flex;
+    /* background-color: #fcf5ed; */
+    background-color: #ebe0ff;
+}
+
+.banner-with-text > div {
+    padding: 2rem;
+    padding-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+}
+
+.banner-with-text .text{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Satisfy', cursive;
+    font-weight: 500;
+    color: #222;
+}
+
+.banner-with-text .text h2 {
+    font-size: 54px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-family: 'Satisfy', cursive;
+}
+
+.banner-with-text .text p {
+    font-size: 26px;
+    margin: 0;
+}
+
+.banner-with-text .text .date{
+    font-size: 20px;
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@500&display=swap');
+
+.header-container{
+    height: 75px;
+    padding: 0.3rem;
+    background-color: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 3px 1px;
+    border-color: #e5e7eb;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .0625rem solid #8332ac;
+}
+
+.header-container::before{
+    content: "";
+    position: absolute;
+    top: -42px;
+    left: -37px;
+    width: 36.1875rem;
+    height: 12rem;
+    background-repeat: no-repeat;
+    background: url('../Images/lavender3.png') no-repeat;
+    background-size: contain;
+}
+
+.header-container .main-heading{
+    text-align: center;
+    font-family: 'Expletus Sans', cursive;
+    font-size: 28px;
+    margin: 1rem;
+    color: #222;
+}
+
+.header-container .header-icons{
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+    color: #8332ac;
+    font-size: larger;
+    cursor: pointer;
+}
