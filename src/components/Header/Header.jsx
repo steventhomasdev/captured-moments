@@ -9,7 +9,6 @@ import {
 const Header = () => {
   return (
     <header className="header-container">
-      <h1 className="main-heading"></h1>
       <div className="header-icons">
         <HomeOutlined />
         <UserOutlined />
