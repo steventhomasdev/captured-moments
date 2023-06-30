@@ -8,13 +8,25 @@
 }
 
 .banner-with-text > div {
-    padding: 3rem;
+    padding: 3rem 8rem;
     padding-top: 8rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    flex: 1 1;
     width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .banner-with-text > div{
+        padding: 3rem 8rem;
+        padding-top: 8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1 1;
+        width: 100%;
+    }
 }
 
 .banner-with-text .text{
@@ -50,6 +62,11 @@
         flex-direction: column-reverse;
     }
 
+    .image-container{
+        padding: 0 2rem;
+        padding-top: 8rem;
+    }
+
     .banner-with-text > div{
         padding: 0;
     }
@@ -58,8 +75,7 @@
         padding: 2rem 0;
     }
 
-    .banner-with-text > .image{
-        padding: 0 0rem;
-        padding-top: 8rem;
+    .banner-with-text .text h2{
+        font-size: 42px;
     }
 }

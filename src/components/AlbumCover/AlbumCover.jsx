@@ -10,18 +10,15 @@ const AlbumCover = () => {
       <div className="text">
         <h2>
           Our Wedding
-          <Image
-            height="50px"
-            preview="false"
-            src={weddingRing}
-            alt="Album Cover"
-          />
+          <Image height="50px" preview={false} src={weddingRing} alt="ringr" />
         </h2>
         <p>Steven & Sandhra</p>
         <p className="date">07/01/2024</p>
       </div>
       <div className="image">
-        <Image height="75vh" src={albumCover} alt="Album Cover" />
+        <div className="image-container">
+          <Image src={albumCover} alt="Album Cover" preview={false} />
+        </div>
       </div>
     </div>
   );
