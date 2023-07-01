@@ -59,3 +59,15 @@
     margin-top: 1rem;
   }
 }
+
+@media screen and (max-width: 426px){
+    .logo.desktop{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 426px){
+    .logo.mobile{
+        display: none;
+    }
+}

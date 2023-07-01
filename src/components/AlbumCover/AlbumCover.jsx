@@ -1,7 +1,7 @@
 import React from "react";
 import "./albumCover.css";
 import { Image } from "antd";
-import albumCover from "../Images/albumcover.jpg";
+import albumCover from "../Images/coverpic.jpg";
 import weddingRing from "../Images/wedding-rings-wedding-svgrepo-com.svg";
 
 const AlbumCover = () => {
